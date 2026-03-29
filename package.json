@@ -1,0 +1,25 @@
+{
+  "name": "examen2-sistemas",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Sin tests por ahora\" && exit 0",
+    "lint": "echo \"Sin lint por ahora\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yafschente208/Examen2-Sistemas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yafschente208/Examen2-Sistemas/issues"
+  },
+  "homepage": "https://github.com/Yafschente208/Examen2-Sistemas#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
