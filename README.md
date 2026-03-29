@@ -89,3 +89,22 @@ strategy:
     node-version: ${{ matrix.node-version }}
     cache: npm
 ```
+## Evidencia
+Pipelines CI y CD ejecutados correctamente en GitHub Actions.
+```
+```
+## Actividad 5: Conceptos
+
+### 1. Diferencia entre CI y CD
+CI básicamente es cuando el sistema prueba el código automáticamente cada vez que uno hace cambios, para ver que no esté todo roto.  
+CD ya es cuando después de que todo pasa bien, el sistema se encarga de desplegar o “subir” la aplicación automáticamente.
+
+### 2. Self-hosted runner
+Es como usar tu propia computadora o servidor para ejecutar los workflows en lugar de usar los de GitHub.  
+Sirve cuando ocupás más control o cosas específicas que GitHub no tiene.
+
+### 3. GitHub environments
+Son como ambientes, por ejemplo production o development, donde podés manejar cosas como secretos o configuraciones diferentes para cada uno.
+
+### 4. Rollback strategy
+Es básicamente tener una forma de volver atrás a una versión anterior si algo sale mal después de un deploy.
