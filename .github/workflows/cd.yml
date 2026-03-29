@@ -1,0 +1,17 @@
+name: CD Pipeline
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment: production
+    steps:
+      - uses: actions/checkout@v4
+      - name: Deploy simulado
+        run: echo "Deploy en producción exitoso"
+        env:
+          DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
+          API_TOKEN: ${{ secrets.API_TOKEN }}
